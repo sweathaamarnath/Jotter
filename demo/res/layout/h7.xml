@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.jotternew.MainActivity"
+    android:background="@drawable/texture" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:textColor="#FFFFFF"
+        android:text="What are your career options right now?
+
+Explain how would be an asset to this organization?
+
+What are your outside interests?
+
+Would you lie for the company?
+
+Who has inspired you in your life and why?
+
+Tell me something about our company.
+
+How much salary do you expect?
+
+Where do you see yourself five years from now?
+
+On a scale of one to ten, rate me as an interviewer.
+
+Do you have any questions for me?
+
+        "
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/textView1"
+        android:background="@drawable/next" />
+
+</RelativeLayout>

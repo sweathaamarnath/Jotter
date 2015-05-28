@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@drawable/texture">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="How to Handle a Group Interview"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#F00" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:text="To successfully handle a group interview, take time in advance to prepare. Ask who you will be interviewing with and ask for their names. That way, you can bring a copy of your resume for each interviewer and it will be easier to remember who&apos;s who. Check the LinkedIn Profiles of your interviewers so you can get insight into their role at the company and their background.Review the interview questions that are typically asked during this type of job interview.Be sure to research the company ahead of time. The more you know about the company, the easier it will be to respond to questions."
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView2"
+        android:background="@drawable/next" />
+
+</RelativeLayout>

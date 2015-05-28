@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/texture"  >
+    
+    
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="18dp"
+            android:text="Improve your interview technique:"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#F00"
+             />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textView1"
+            android:text="A job interview gives you a chance to shine. What you say and what you do is going to either move you to the next round or knock you out of contention. It doesn&apos;t take much to make an impression - good or bad. Take the time to prepare your interview technique including knowing what&apos;s on your resume, being able to present why you are qualified for the job, why you are interested in the company, and practicing staying calm and focused. It&apos;s important to remember that the image the interviewer is important. "
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/textView2"
+            android:layout_marginTop="35dp"
+            android:background="@drawable/next" />
+
+</RelativeLayout>

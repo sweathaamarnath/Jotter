@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/texture" >
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textView4"
+            android:layout_marginTop="18dp"
+            android:text="The first impression you make on a potential employer can make a big difference. The first judgement an interviewer makes is going to be based on how you look and what you are wearing."
+            android:textAppearance="?android:attr/textAppearanceMedium" 
+            android:textColor="#FFFFFF"/>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textView2"
+            android:layout_marginTop="16dp"
+            android:text="What shouldn&apos;t you do when interviewing? Check out the most common job interview mistakes, blunders, and errors a candidate for employment can make. Then take the time to prepare before your interview, so you don&apos;t have to stress afterwards."
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView2"
+            android:layout_below="@+id/textView3"
+            android:layout_marginTop="20dp"
+            android:text=" Dress for Interview Success:"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#F00" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textView1"
+            android:layout_marginTop="25dp"
+            android:text="Avoid Interview Mistakes:"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#F00" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/next" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignRight="@+id/textView4"
+            android:layout_marginTop="16dp"
+            android:text="Interview tips"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#F00" />
+    
+</RelativeLayout>

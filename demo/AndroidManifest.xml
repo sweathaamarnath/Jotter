@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.demo"
+    package="com.example.jotternew"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -10,7 +10,7 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@drawable/ic_launcher"
+        android:icon="@drawable/icon"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
@@ -22,10 +22,100 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+          <activity
+            android:label="@string/app_name"
+            android:name=".Cse" >
+        </activity>
+          <activity
+            android:label="@string/app_name"
+            android:name=".Cse2" >
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".Cse3" >
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".Notes" >
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".App1" >
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".App2" >
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".App3" >
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".App4" >
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".H1" >
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".H2" >
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".H3" >
+        </activity>
+       
+        <activity
+            android:label="@string/app_name"
+            android:name=".High1" >
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".High2" >
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".High3" >
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".App5" >
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".Hlast" >
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".Higherlast" >
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".Higherlast1" >
+        </activity>
          <activity
             android:label="@string/app_name"
-            android:name=".main2" >
+            android:name=".H4" >
         </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".H5" >
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".H6" >
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".H7" >
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".H8" >
+        </activity>
+        
     </application>
 
 </manifest>

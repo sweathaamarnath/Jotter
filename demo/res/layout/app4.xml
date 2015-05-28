@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/texture" >
+    
+<TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textView2"
+            android:text="[A] 36 kmph [B] 45 kmph [C] 48 kmph [D] 50 kmph "
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textView3"
+            android:text="ANS: C "
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textView4"
+            android:text="Speed on return trip = 150% of 40 = 60 kmph. Therefore Average speed =[(2 x 40 x 60)/(40 + 60)] km/hr = (4800/100) km/hr = 48 km/hr. "
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textView5"
+            android:layout_marginTop="17dp"
+            android:text="8. A man takes 5 hours 45 min. in walking to a certain place and riding back. He would have gained 2 hours by riding both ways. The time he would take to walk both ways, is: "
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textView6"
+            android:text="[A] 3 hrs 45 min [B] 7 hrs 30 min [C] 7 hrs 45 min [D] 11 hrs 45 min"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textView7"
+            android:text="ANS: C "
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textView8"
+            android:text="Let the distance be x km. Then, (Time taken to walk x km) + (Time taken to ride x km) = (23/4)hrs=> (Time taken to walk 2x km) + (Time taken to ride 2x km) =(23/2)hrs "
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:text="km/hr = 1 km/hr .Distance covered in 6 minutes =[(1/60)*6] km = (1/10)km = 100 m. Distance between the thief and policeman = (200 – 100) m = 100 m. "
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textView1"
+            android:text="7. A person travels from P to Q at a speed of 40 kmph and returns by increasing his speed by 50%. What is his average speed for the both the trips? "
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/next" />
+    
+</RelativeLayout>
